@@ -13,6 +13,52 @@ header {
     padding-left: 30px;
   }
 
+  .hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 100px;
+  }
+
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+  
+  .hero-form p {
+    margin: 20px 0 15px 0;
+  }
+  
+  .form-input {
+    border: 2px solid #024e76;
+    display: block;
+    padding: 10px 5px;
+    font-size: 16px;
+    color: #024e76;
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
   header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -41,11 +87,35 @@ header {
   }
 
   footer {
-    padding-top: 20px
+    max-width: 100%;
+    background: #fce138;
+    padding: 40px 35px;
+    padding-top: 40px
+  }
+
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+    margin: auto;
+  }
+
+  footer a {
+    color: #024e76;
+  }
+
+  section {
+    padding: 60px;
   }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
