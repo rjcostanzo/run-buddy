@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* apply styles to <header> */
+/* Explicitly list the side it should be applied to*/
+header {
+    background-color: #39a6b2;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+  }
+
+  header nav {
+    float: right;
+    margin: -35px 30px;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 40px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  footer {
+    padding-top: 20px
+  }
+
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
