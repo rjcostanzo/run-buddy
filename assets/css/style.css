@@ -66,6 +66,13 @@ header {
     margin: 0;
   }
 
+  h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+  }
+
   header nav {
     float: right;
     margin: -35px 30px;
